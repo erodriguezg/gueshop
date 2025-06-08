@@ -1,0 +1,65 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Build output
+/build/
+dist/
+bin/
+
+# Go module cache
+/pkg/
+vendor/
+
+# Logs
+*.log
+
+# IDEs
+
+### VisualStudioCode ###
+!.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+.idea/
+*.swp
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# GoLand test results
+*.test
+
+# Git merge conflict backups
+*.orig
+
+# Migration files (generated locally if any)
+migrations/*.lock
+
+# Embedded file cache (just in case)
+*.embed
+
+# Environment files
+.env
+.env.*
+
+# Static VUE Resources
+public
+public/*
+
+# Documentation Swagger
+docs/
+
