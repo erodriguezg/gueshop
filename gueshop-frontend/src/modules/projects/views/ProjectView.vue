@@ -22,11 +22,14 @@
         </table>
     </div>
 
-    <fab-button />
+    <fab-button @click="() => console.log('clicked')">
+        <add-circle-icon />
+    </fab-button>
 
 </template>
 
 <script setup lang="ts">
 import FabButton from '@/modules/common/components/FabButton.vue';
+import AddCircleIcon from '@/modules/common/icons/AddCircleIcon.vue';
 
 </script>
