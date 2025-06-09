@@ -22,7 +22,7 @@
         </table>
     </div>
 
-    <fab-button position="bottom-right" />
+    <fab-button />
 
 </template>
 
