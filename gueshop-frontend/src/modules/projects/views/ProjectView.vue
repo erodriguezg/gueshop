@@ -22,6 +22,8 @@
         </table>
     </div>
 
+    <input-modal />
+
     <fab-button @click="() => console.log('clicked')">
         <add-circle-icon />
     </fab-button>
@@ -30,6 +32,7 @@
 
 <script setup lang="ts">
 import FabButton from '@/modules/common/components/FabButton.vue';
+import InputModal from '@/modules/common/components/InputModal.vue';
 import AddCircleIcon from '@/modules/common/icons/AddCircleIcon.vue';
 
 </script>
