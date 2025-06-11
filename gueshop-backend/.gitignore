@@ -54,7 +54,6 @@ migrations/*.lock
 
 # Environment files
 .env
-.env.*
 
 # Static VUE Resources
 public
