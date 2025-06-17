@@ -3,6 +3,7 @@ package app
 import (
 	"go.uber.org/fx"
 
+	"github.com/erodriguezg/gueshop/internal/catalog"
 	"github.com/erodriguezg/gueshop/internal/db"
 	"github.com/erodriguezg/gueshop/internal/users"
 	"github.com/erodriguezg/gueshop/internal/util"
@@ -33,4 +34,5 @@ var Modules = fx.Options(
 
 	// Módulos funcionales
 	users.Module,
+	catalog.Module,
 )
