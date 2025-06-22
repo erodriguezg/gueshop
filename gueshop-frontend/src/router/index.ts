@@ -17,6 +17,19 @@ const router = createRouter({
         },
       ],
     },
+    {
+      path: '/catalog',
+      name: 'catalog',
+      redirect: { name: 'categories' },
+      component: () => import('@/modules/catalogs/layouts/CatalogsLayout.vue'),
+      children: [
+        {
+          path: 'categories',
+          name: 'categories',
+          component: () => import('@/modules/catalogs/views/CategoriesView.vue'),
+        },
+      ],
+    },
   ],
 });
 
