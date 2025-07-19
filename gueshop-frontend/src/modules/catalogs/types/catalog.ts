@@ -4,3 +4,11 @@ export interface Category {
   imageUrl?: string;
   slug: string;
 }
+
+export interface Product {
+  id: string;
+  name: string;
+  shortDescription: string;
+  imageUrl?: string;
+  price: number;
+}
